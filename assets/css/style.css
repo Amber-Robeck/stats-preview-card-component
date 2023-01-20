@@ -29,6 +29,26 @@ body {
     display: flex;
 }
 
+.card__title {
+    color: var(--white);
+}
+
+.text-purple {
+    color: var(--soft-violet);
+}
+
+.card__body>p {
+    color: var(--transparent-white-1)
+}
+
+.card__stats {
+    color: var(--white);
+}
+
+.text-muted {
+    color: var(--transparent-white-2);
+}
+
 /* .card__image {
     filter: var(--soft-violet 100%);
 } */
