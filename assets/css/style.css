@@ -108,7 +108,7 @@ body {
 
 /* media queries */
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
     body {
         margin: 0;
         padding: 0;
