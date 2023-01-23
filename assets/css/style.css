@@ -112,15 +112,14 @@ body {
     body {
         margin: 0;
         padding: 0;
+        height: 1000px;
     }
 
     .card {
         grid-auto-flow: row;
         grid-auto-columns: 1fr;
         width: 350px;
-        margin-top: .5rem;
         height: fit-content;
-        overflow: visible;
     }
 
     .card__body {
@@ -128,7 +127,7 @@ body {
         flex-direction: column;
         padding: 2rem;
         text-align: center;
-        height: 55vh;
+        height: fit-content;
     }
 
     .card__title {
@@ -154,6 +153,7 @@ body {
     .overlay {
         grid-row: 1;
         object-fit: contain;
+        height: 255px;
 
     }
 
